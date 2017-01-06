@@ -52,7 +52,7 @@
     <gap:splash src="res/screen/ios/splash-portrait-640x960.png" gap:platform="ios" width="640" height="960" />
     <gap:splash src="res/screen/ios/splash-portrait-640x1136.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="https://www.dogary.com" />
+    <content src="https://www.dogary.com/index.php" />
     <access origin="https://www.dogary.com" subdomains="true" />
     <access origin="*.google.*" subdomains="true" />
     <access origin="*.googleapis.*" subdomains="true" />
