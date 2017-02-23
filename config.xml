@@ -1,22 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.dogary.www" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
-    <name>Dogary</name>
+    <name>Dogary - Places for Dogs</name>
     <description>All the places for your dogs and your needs</description>
     <author email="info@dogary.com" href="https://www.dogary.com">S. Renfer</author>
 
-    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <!-- <gap:plugin name="org.apache.cordova.device" />
+    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+
+<!--    <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin spec="https://github.com/apache/cordova-plugin-geolocation.git" />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.vibration" />
@@ -50,8 +51,8 @@
     <gap:splash src="res/screen/ios/splash-portrait-640x960.png" gap:platform="ios" width="640" height="960" />
     <gap:splash src="res/screen/ios/splash-portrait-640x1136.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="https://www.dogary.com/" />
-    <access origin="https://www.dogary.com/" subdomains="true" />
+    <content src="https://www.dogary.com" />
+    <access origin="https://www.dogary.com" subdomains="true" />
     
     <preference name="Fullscreen" value="true" />
     
